@@ -33,7 +33,7 @@ global_args += '-DHAVE_NANOSLEEP'
 
 # STEAMWORKS
 
-steamworks = false
+steamworks = true
 steamworks_path = get_option('steamworks_path')
 if steamworks_path != ''
     libname = 'steam_api'
